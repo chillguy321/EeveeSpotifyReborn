@@ -16,6 +16,10 @@ on:
 
 env:
   SWIFTPROTOBUF_VERSION: "1.29.0"
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
+permissions:
+  contents: write
 
 jobs:
   build:
